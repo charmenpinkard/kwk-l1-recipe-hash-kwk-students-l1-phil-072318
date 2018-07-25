@@ -9,3 +9,5 @@ perfect_10_list.each do |each_item|
 end
 
 puts perfect_10_hash
+puts perfect_10_hash.values
+puts perfect_10_hash.keys
