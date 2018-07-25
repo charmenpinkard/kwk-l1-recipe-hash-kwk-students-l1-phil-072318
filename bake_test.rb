@@ -4,7 +4,8 @@ amount_list = ["2 cups", "1 cup", "1/2 teaspoon", "1/2 teaspoon", "1/4 teaspoon"
 perfect_10_hash = {}
 index = 0
 perfect_10_list.each do |each_item|
-  perfect_10_hash[each_item] = amount_list
+  perfect_10_hash[each_item] = amount_list[index]
+  index +=1
 end
 
 puts perfect_10_hash
